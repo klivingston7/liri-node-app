@@ -161,9 +161,9 @@ function doRandom() {
         var input = doArr[1];
         // tried to set this up to search for what is in random text but was having issues with the scope
         if (command === "my-tweets") {
-            myTweets();
+            tweets();
         } else if (command === "spotify-this-song") {
-            spotifyTrack();
+            tracks();
         } else if (command === "movie-this") {
             movies();
         };
